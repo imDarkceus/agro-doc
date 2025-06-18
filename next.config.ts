@@ -1,7 +1,6 @@
-import type {NextConfig} from 'next';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -9,7 +8,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    domains: ['scontent.fdac138-2.fna.fbcdn.net'],
+    domains: ['scontent.fdac138-2.fna.fbcdn.net'], // ✅ Comma added here
     remotePatterns: [
       {
         protocol: 'https',
