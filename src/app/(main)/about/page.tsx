@@ -12,8 +12,8 @@ const developerInfo = {
   name: "ISMAIL HOSSAIN",
   title: "সফটওয়্যার ইঞ্জিনিয়ার",
   bio: "আমি একজন উৎসাহী সফটওয়্যার ইঞ্জিনিয়ার, কৃষিক্ষেত্রে প্রযুক্তিগত সমাধান আনতে আগ্রহী। এই অ্যাপটি কৃষকদের আধুনিক প্রযুক্তির মাধ্যমে সহায়তা করার একটি প্রচেষ্টা। আমার লক্ষ্য হলো এমন টুল তৈরি করা যা ব্যবহার করা সহজ এবং কৃষিকাজের উন্নতিতে সহায়ক হয়।",
-  avatarUrl: "https://scontent.fzyl2-2.fna.fbcdn.net/v/t39.30808-1/469604668_1791049765046860_3285962025710602545_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeGz54RlSVztzZzIMJvzuQ2925H4lkHimt3bkfiWQeKa3dIgf3QBT1drKccJ4OQo-FR3xqBvQ12vHZ5nuGPVS7Nw&_nc_ohc=1Ezva3xar54Q7kNvwHuXi4e&_nc_oc=AdmWgUzBnlgLsXKBo8g1Nj4qiJbbMCTaowb9ex_zvPl-u48p67j0sTuPl32M6h3ZYxM&_nc_zt=24&_nc_ht=scontent.fzyl2-2.fna&_nc_gid=S99zkdboJU1PiFsqn4uGYg&oh=00_AfM5gRH2twGNUlwv7YPQJZ3PKSnfWJDhMXLnK3OjGJCAbA&oe=68582EDE", // Replace with actual image URL
-  avatarFallback: "KA",
+  <AvatarImage src="/avatar.jpg" alt="Ismail Hossain" />
+
   contact: {
     email: "ismailbdih57@gmail.com",
     github: "https://github.com/imDarkceus",
