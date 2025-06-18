@@ -12,7 +12,7 @@ const developerInfo = {
   name: "ISMAIL HOSSAIN",
   title: "সফটওয়্যার ইঞ্জিনিয়ার",
   bio: "আমি একজন উৎসাহী সফটওয়্যার ইঞ্জিনিয়ার, কৃষিক্ষেত্রে প্রযুক্তিগত সমাধান আনতে আগ্রহী। এই অ্যাপটি কৃষকদের আধুনিক প্রযুক্তির মাধ্যমে সহায়তা করার একটি প্রচেষ্টা। আমার লক্ষ্য হলো এমন টুল তৈরি করা যা ব্যবহার করা সহজ এবং কৃষিকাজের উন্নতিতে সহায়ক হয়।",
-  avatarUrl: "https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/469604668_1791049765046860_3285962025710602545_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGz54RlSVztzZzIMJvzuQ2925H4lkHimt3bkfiWQeKa3dIgf3QBT1drKccJ4OQo-FR3xqBvQ12vHZ5nuGPVS7Nw&_nc_ohc=Rne4-l-l6RYQ7kNvwE_jotK&_nc_oc=AdljdmxtM-DEEuV_JAwWEIai74nh_4eG4hpDe80HahaeFVbk3wTCgUrGY3fYut7Cqc0&_nc_zt=23&_nc_ht=scontent.fdac138-2.fna&_nc_gid=Y3qGw5kvlHZ7An9nSBEOmg&oh=00_AfLXfsAW4JoILM3tovDrOiBIg7TzfXeDP2h-364hW6fB3w&oe=682E41A0", // Replace with actual image URL
+  avatarUrl: "https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/469604668_1791049765046860_3285962025710602545_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGz54RlSVztzZzIMJvzuQ2925H4lkHimt3bkfiWQeKa3dIgf3QBT1drKccJ4OQo-FR3xqBvQ12vHZ5nuGPVS7Nw&_nc_ohc=Rne4-l-l6RYQ7kNvwE_jotK&_nc_oc=AdljdmxtM-DEEuV_JAwWEIai74nh_4eG4hpDe80HahaeFVbk3wTCgUrGY3fYut7Cqc0&_nc_zt=23&_nc_ht=scontent.fdac138-2.fna&_nc_gid=Y3qGw5kvlHZ7An9nSBEOmg&oh=00_AfLXfsAW4JoILM3tovDrOiBIg7TzfXeDP2h-364hW6fB3w&oe=682E41A0.png", // Replace with actual image URL
   avatarFallback: "KA",
   contact: {
     email: "ismailbdih57@gmail.com",
