@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    domains: ['scontent.fdac138-2.fna.fbcdn.net']
+    domains: ['scontent.fdac138-2.fna.fbcdn.net'],
     remotePatterns: [
       {
         protocol: 'https',
