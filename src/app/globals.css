@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 120 100% 97%; /* #F0FFF0 - honeydew */
+    --foreground: 120 25% 25%; /* Dark Green */
+
+    --card: 0 0% 100%; /* white */
+    --card-foreground: 120 25% 25%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 120 25% 25%;
+
+    --primary: 120 73% 75%; /* #90EE90 - lightgreen */
+    --primary-foreground: 120 25% 15%; /* Darker Green for contrast on primary green */
+
+    --secondary: 120 60% 88%; /* Lighter shade of primary for secondary actions/bg */
+    --secondary-foreground: 120 25% 20%;
+
+    --muted: 120 60% 92%;
+    --muted-foreground: 120 25% 45%;
+
+    --accent: 51 100% 50%; /* #FFD700 - gold */
+    --accent-foreground: 51 100% 15%; /* Dark Brown/Black for contrast on yellow */
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 120 30% 88%; /* Light green border */
+    --input: 0 0% 100%; /* White input with greenish border */
+    --ring: 120 73% 65%; /* Slightly darker primary green for ring */
+
+    --radius: 0.5rem;
+
+    /* Sidebar specific variables */
+    --sidebar-background: 120 80% 95%; /* Slightly different light green for sidebar */
+    --sidebar-foreground: 120 25% 20%;
+    --sidebar-primary: 120 73% 70%; /* A bit darker than main primary for selected sidebar item */
+    --sidebar-primary-foreground: 120 25% 10%;
+    --sidebar-accent: 120 60% 90%; /* Lighter green for hover */
+    --sidebar-accent-foreground: 120 25% 15%;
+    --sidebar-border: 120 50% 85%;
+    --sidebar-ring: 120 73% 65%;
+
+    --chart-1: 120 73% 75%;
+    --chart-2: 51 100% 50%;
+    --chart-3: 120 60% 88%;
+    --chart-4: 120 40% 60%;
+    --chart-5: 51 80% 60%;
+  }
+
+  .dark {
+    --background: 120 10% 10%; /* Dark Greenish Black */
+    --foreground: 120 25% 85%; /* Light Green */
+
+    --card: 120 10% 12%; /* Slightly Lighter Dark Greenish Black */
+    --card-foreground: 120 25% 85%;
+
+    --popover: 120 10% 12%;
+    --popover-foreground: 120 25% 85%;
+
+    --primary: 120 73% 65%; /* Darker vibrant green */
+    --primary-foreground: 120 25% 95%; /* Very light green for contrast */
+
+    --secondary: 120 50% 25%; /* Darker secondary green */
+    --secondary-foreground: 120 25% 85%;
+
+    --muted: 120 30% 20%;
+    --muted-foreground: 120 25% 65%;
+
+    --accent: 51 100% 60%; /* Brighter Yellow for dark mode */
+    --accent-foreground: 51 100% 10%; /* Dark brown for contrast */
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 120 20% 30%; /* Dark green border */
+    --input: 120 20% 25%; /* Dark green input background */
+    --ring: 120 73% 55%; /* Darker primary green for ring */
+
+    /* Sidebar specific variables for dark mode */
+    --sidebar-background: 120 15% 15%; /* Darker sidebar */
+    --sidebar-foreground: 120 25% 80%;
+    --sidebar-primary: 120 73% 60%; /* Dark mode active sidebar item */
+    --sidebar-primary-foreground: 120 25% 90%;
+    --sidebar-accent: 120 25% 25%; /* Dark mode hover */
+    --sidebar-accent-foreground: 120 25% 90%;
+    --sidebar-border: 120 20% 28%;
+    --sidebar-ring: 120 73% 55%;
+    
+    --chart-1: 120 73% 65%;
+    --chart-2: 51 100% 60%;
+    --chart-3: 120 50% 25%;
+    --chart-4: 120 30% 40%;
+    --chart-5: 51 70% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
