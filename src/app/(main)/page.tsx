@@ -87,7 +87,7 @@ export default function DashboardPage() {
             <CardDescription>আজকের জন্য গুরুত্বপূর্ণ পরামর্শ</CardDescription>
           </CardHeader>
           <CardContent className="space-y-3">
-            <Image src="/images/tips.jpg" alt="কৃষি টিপস" width={600} height={400} className="rounded-lg object-cover aspect-video" data-ai-hint="farming agriculture" />
+            <Image src="/images/tips.jpg" alt="কৃষি টিপস" />
             <h3 className="font-semibold">সঠিক সময়ে বীজ বপন</h3>
             <p className="text-sm text-muted-foreground">
               এই মৌসুমে সময়মতো বীজ বপন করলে ভালো ফলন পাওয়া যায়। মাটির আদ্রতা পরীক্ষা করে এবং আবহাওয়ার পূর্বাভাস দেখে বীজ বপনের সঠিক দিন নির্ধারণ করুন।
