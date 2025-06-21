@@ -92,7 +92,7 @@ export default function DashboardPage() {
           </CardHeader>
           <CardContent className="space-y-3">
             <Image
-              src="/tips.jpg"
+              src="/images/tips.jpg"
               alt="কৃষি টিপস"
               width={600}
               height={400}
