@@ -54,12 +54,16 @@ export default function DashboardPage() {
               {MOCK_WEATHER_DATA.forecast.slice(0, 2).map(dayForecast => (
                 <div key={dayForecast.day} className="flex justify-between text-xs p-1 rounded bg-muted/50">
                   <span>{dayForecast.day}</span>
-                  <span className="flex items-center gap-1"><dayForecast.icon className="w-3 h-3" /> {dayForecast.description}</span>
+                  <span className="flex items-center gap-1">
+                    <dayForecast.icon className="w-3 h-3" /> {dayForecast.description}
+                  </span>
                   <span>{dayForecast.tempMax}°/{dayForecast.tempMin}°</span>
                 </div>
               ))}
             </div>
-            <p className="text-xs text-muted-foreground p-2 border border-dashed rounded-md bg-background">{MOCK_WEATHER_DATA.advice}</p>
+            <p className="text-xs text-muted-foreground p-2 border border-dashed rounded-md bg-background">
+              {MOCK_WEATHER_DATA.advice}
+            </p>
           </CardContent>
         </Card>
 
@@ -82,19 +86,18 @@ export default function DashboardPage() {
         </Card>
         
         <Card className="lg:col-span-1 md:col-span-2">
-           <CardHeader>
+          <CardHeader>
             <CardTitle>কৃষি টিপস</CardTitle>
             <CardDescription>আজকের জন্য গুরুত্বপূর্ণ পরামর্শ</CardDescription>
           </CardHeader>
           <CardContent className="space-y-3">
             <Image
-  src="/images/tips.jpg"
-  alt="কৃষি টিপস"
-  width={500}
-  height={300}
-  className="rounded-md w-full h-auto object-cover"
-/>
-
+              src="/images/tips.jpg"
+              alt="কৃষি টিপস"
+              width={600}
+              height={300}
+              className="rounded-md w-full h-auto object-cover"
+            />
             <h3 className="font-semibold">সঠিক সময়ে বীজ বপন</h3>
             <p className="text-sm text-muted-foreground">
               এই মৌসুমে সময়মতো বীজ বপন করলে ভালো ফলন পাওয়া যায়। মাটির আদ্রতা পরীক্ষা করে এবং আবহাওয়ার পূর্বাভাস দেখে বীজ বপনের সঠিক দিন নির্ধারণ করুন।
@@ -108,3 +111,4 @@ export default function DashboardPage() {
     </div>
   );
 }
+
