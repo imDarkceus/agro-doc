@@ -92,10 +92,10 @@ export default function DashboardPage() {
           </CardHeader>
           <CardContent className="space-y-3">
             <Image
-              src="/images/tips.jpg"
+              src="/tips.jpg"
               alt="কৃষি টিপস"
               width={600}
-              height={300}
+              height={400}
               className="rounded-md w-full h-auto object-cover"
             />
             <h3 className="font-semibold">সঠিক সময়ে বীজ বপন</h3>
